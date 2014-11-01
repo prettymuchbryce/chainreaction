@@ -26,7 +26,7 @@ var TransactionItem = React.createClass({
         return (
             <a href={link}>
                 <button type="button" className={this.props.panelType}>
-                    <img className="btc-icon" data-toggle="tooltip" data-placement="left" title="Transaction Amount" src="img/btc-icon.jpg"/>: {this.props.amount / 100000} <img className="miner-icon" src="img/miner-icon.png" data-toggle="tooltip" data-placement="left" title="Miners Fee"/>: {this.props.fees / 100000}
+                    <img className="btc-icon" data-toggle="tooltip" data-placement="left" title="Transaction Amount" src="/building/chainreaction/img/btc-icon.jpg"/>: {this.props.amount / 100000} <img className="miner-icon" src="/building/chainreaction/img/miner-icon.png" data-toggle="tooltip" data-placement="left" title="Miners Fee"/>: {this.props.fees / 100000}
                 </button>
             </a>
         )
