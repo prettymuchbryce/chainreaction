@@ -11,4 +11,4 @@ Simple frontend webapp which shows recent transactions on the BTC network
 
 `node server/app.js`
 
-`http://127.0.0.1:3000`
+`http://127.0.0.1:3005`
