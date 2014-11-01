@@ -1,6 +1,7 @@
 ### Just having some fun with React and the chain.com API
+[Demo Here](http://bryce.is/building/chainreaction)
 
-##Demo
+### Setup
 
 Simple frontend webapp which shows recent transactions on the BTC network
 
