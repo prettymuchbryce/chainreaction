@@ -1,5 +1,7 @@
 ### Just having some fun with React and the chain.com API
 
+##Demo
+
 Simple frontend webapp which shows recent transactions on the BTC network
 
 `git clone git@github.com:prettymuchbryce/chainreaction.git`
