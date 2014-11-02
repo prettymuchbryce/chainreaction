@@ -6,6 +6,14 @@ var TransactionList = React.createClass({
         return {data: []};
     },
     render: function() {
+        if (this.state.data.length === 0) {
+            return (
+                <div>
+                    <img className="spinner" src="/building/chainreaction/img/spinner.gif"/>
+                </div>
+            )
+        }
+
         var transactionNodes = this.state.data.map(function (transaction) {
             return (
                 <TransactionItem key={transaction.key} hash={transaction.hash} fees={transaction.fees} 
