@@ -38,7 +38,7 @@ gulp.task('images', ['clean'], function() {
 });
 
 gulp.task('browserify', ['clean'], function(cb) {
-    return exec('browserify -t reactify -e ./client/src/app.js -o ./static/js/all.js', function(error, stdout, stderr) {
+    return exec('browserify -t reactify -e ./client/src/app.jsx -o ./static/js/all.js', function(error, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
         cb(error);

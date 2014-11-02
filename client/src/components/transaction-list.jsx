@@ -1,5 +1,5 @@
 var React = require('react');
-var TransactionItem = require('./transaction-item.js');
+var TransactionItem = require('./transaction-item.jsx');
 
 var TransactionList = React.createClass({
     getInitialState: function() {

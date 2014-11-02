@@ -1,5 +1,5 @@
 var React = require('react');
-var TransactionList = require('./transaction-list.js');
+var TransactionList = require('./transaction-list.jsx');
 var React = require('react');
 var Network = require('../network.js');
 

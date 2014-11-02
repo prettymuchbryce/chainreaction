@@ -1,4 +1,4 @@
 var React = require('react');
-var Main = require('./components/main.js');
+var Main = require('./components/main.jsx');
 
 React.render(<Main />, document.body);
