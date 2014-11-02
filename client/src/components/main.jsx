@@ -23,7 +23,7 @@ var Main = React.createClass({
     render: function() {
         return (
             <div className="row">
-                <a href="https://github.com/prettymuchbryce/chainreaction"><img className="github-banner" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-graphite@2x.png" alt="Fork me on GitHub"/></a>
+                <div className="forkongithub"><a href="https://github.com/prettymuchbryce/chainreaction">Fork me on GitHub</a></div>
                 <div className="col-md-12 text-center">
                     <h3>Realtime transactions on the BTC Network</h3>
                     <div className="panel panel-default">
